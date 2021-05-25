@@ -21,6 +21,7 @@ const Search = ()=>{
                 origin: '*',
                 format: 'json',
                 srsearch: term,
+           
             }
          }); 
 
