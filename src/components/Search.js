@@ -42,6 +42,7 @@ const Search = ()=>{
     
          return () => {
              // cancel the time out 
+             // return functio will be called when useState function is called next time 
             clearTimeout(timeoutId); 
          }
 
