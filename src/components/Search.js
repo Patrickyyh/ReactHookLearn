@@ -2,7 +2,7 @@ import React , {useState, useEffect} from 'react';
 import axios from 'axios'; 
 
 
-
+/*Search component*/
 const Search = ()=>{
    const [term,setTerm] =  useState('');
    const [result, setResult] = useState([]); 
