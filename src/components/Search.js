@@ -6,7 +6,7 @@ import axios from 'axios';
 const Search = ()=>{
    const [term,setTerm] =  useState('');
    const [result, setResult] = useState([]); 
-
+   
    console.log(result); 
 
    useEffect(()=>{
@@ -36,6 +36,7 @@ const Search = ()=>{
             if(term){
                 // set the time out 
                 search();
+                
             }
     
          },1000); 
